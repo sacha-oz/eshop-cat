@@ -34,6 +34,9 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.2]
 
 
       t.timestamps null: false
+
+      t.belongs_to :cart, index: true
+      
     end
 
     add_index :users, :email,                unique: true
@@ -41,7 +44,6 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.2]
     # add_index :users, :confirmation_token,   unique: true
     # add_index :users, :unlock_token,         unique: true
 
-    t.belongs_to :cart, index: true
 
   end
 end
