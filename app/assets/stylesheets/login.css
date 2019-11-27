@@ -1,0 +1,45 @@
+.navbar
+{
+  color: white;
+  background-color: rgb(175, 230, 175);
+}
+
+.fas
+{
+  margin-right: 1rem;
+}
+
+.fab
+{
+  margin-right: 1rem;
+}
+
+.login
+{
+  display: flex;
+  width: 20%;
+  margin-left: 40%;
+  margin-top: 2rem;
+}
+
+.btnsignin
+{
+  width: 10%;
+  height: 5%;
+  margin-left: 45%;
+  margin-top: 2rem;
+  background-color: rgb(175, 230, 175);
+  color: white;
+}
+
+.form-signin
+{
+  margin-top: 10rem;
+}
+
+.remember-me
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
