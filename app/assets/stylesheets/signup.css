@@ -6,24 +6,24 @@
   margin-top: 2rem;
 }
 
-.btnsignin
+.btnsignup
 {
-  width: 10%;
+  width: 18%;
   height: 5%;
-  margin-left: 45%;
+  margin-left: 41%;
   margin-top: 2rem;
   background-color: rgb(175, 230, 175);
   color: white;
 }
 
-.form-signin
+.form-signup
 {
-  margin-top: 10rem;
+    margin-top: 10rem;
 }
 
-.remember-me
+.read-and-agree
 {
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
 }
