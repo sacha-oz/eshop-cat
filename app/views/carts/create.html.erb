@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+<% @items.each do |item| %>
+  <%= item.title %>
+  <%= item.description %>
+  <%= item.price %>
+<% end %>
+=======
 <!DOCTYPE html>
 <html>
   <head>
@@ -18,7 +25,7 @@
 
       <!-- Products list -->
 
-      <% @mycart.each do |item| %>
+      <% @cart_it.each do |item| %>
       <div class="item">
         <div class="buttons">
           <%= link_to item_path, data: {:confirm => 'Are you sure?'}, :method => :delete do %>
@@ -95,3 +102,4 @@
     </script>
   </body>
 </html>
+>>>>>>> 6f442a8841da076b8ac465af10d8e1e8fe05c90d
