@@ -1,0 +1,27 @@
+.container
+{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container img
+{
+    width: 100%;
+    height: auto;
+}
+
+.container .btn {
+    position: absolute;
+    top:  70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgb(175, 230, 175);
+    padding: 12px 24px;
+    border: none;
+  }
