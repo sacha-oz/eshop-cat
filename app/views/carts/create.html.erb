@@ -18,7 +18,7 @@
 
       <!-- Products list -->
 
-      <% @mycart.each do |item| %>
+      <% @cart_it.each do |item| %>
       <div class="item">
         <div class="buttons">
           <%= link_to item_path, data: {:confirm => 'Are you sure?'}, :method => :delete do %>
