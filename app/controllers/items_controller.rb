@@ -15,11 +15,8 @@ class ItemsController < ApplicationController
     end
 
     def destroy
-
-    @item = Item.find(params[:id])
-    @item.destroy
-    :notice => "L'item a été retiré du panier"
-
+        @item = Item.find(params[:id])
+        @item.destroy
     end
 
 end
