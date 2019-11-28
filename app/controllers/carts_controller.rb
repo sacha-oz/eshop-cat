@@ -6,11 +6,11 @@ class CartsController < ApplicationController
 
     def create
         # définir quel user
-        @userid_cart = @current_user.id
+        @userid_cart = current_user
         # définir items 
         @it = session[:item_id]
         #comme user has_one :cart et si le panier est vide on le crée! :)
-        if @current_user.cart == nil
+        if current_user.cart == nil
             @cart = Cart.create(user_id: @userid_cart)
         end
         #si le panier n'est pas vide, on ne rentre pas dans le premier if et on ajoute simplement au panier existant
