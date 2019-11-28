@@ -26,22 +26,7 @@ class CartsController < ApplicationController
 
 
     def show
-        puts "="*80
-        puts params
-        puts "="*80
-        #on vas chercher les paramètres pour définir la variable cart
-        if current_user.cart == nil
-            flash[:no_cart] = "Vous n'avez pas de panier en cours! veuillez ajouter des articles!"
-            redirect_to root_path
-        else
-            @cart = Cart.find(current_user.cart_id)
-            # on définir les items du paniers
-        @mycart = current_user.cart.item
-        # initialisation d'un compteur a 0 pour l'addition du prix du panier
-        total = 0
-        @mycart.map{ |item| total += item.price}
-        @count = [@mycart.length, total]
-        end
+        @cart = current_user.cart
     end
 
 
