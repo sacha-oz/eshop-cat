@@ -1,3 +1,24 @@
-<h1>Baptiste fait nous rever!!! </h1>
 
-CECI EST CENSÉ ETRE L'EMAIL DE L'UTILISATEUR <%= @user.email %> #juste pour tester mamène
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>profil</title>
+	<link rel="stylesheet" href="assets/profil.css">
+</head>
+<body>
+<div class="border-form-div" style="background-color: rgb(175, 230, 175)">
+	<div class="card">
+		<div class="card-header" style="text-align: center">
+	  		Bienvenue sur ton profil
+	  	</div>
+	  	
+	  	<div class="card-body">
+	    	<p class="card-text"> Ton email : <%= @user.email %> </p>
+	    	<p class="card-text"> Compte créer : <%= @user.created_at %> </p>
+	    	<center><a style="text-align: center; background-color: rgb(175, 230, 175)"class="btn" <%= link_to "Edite ton profil", edit_user_registration_path %> </a></center>
+	  	</div>
+	</div>
+</div>
+</body>
+</html>
