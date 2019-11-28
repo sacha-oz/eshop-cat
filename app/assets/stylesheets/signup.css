@@ -1,4 +1,4 @@
-.login
+.field
 {
   display: flex;
   width: 20%;
@@ -6,7 +6,7 @@
   margin-top: 2rem;
 }
 
-.btnsignup
+.actions
 {
   width: 18%;
   height: 5%;
