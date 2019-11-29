@@ -1,24 +1,35 @@
-# README
+# The E-shop cat Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Vous allez découvrir notre projet
 
-Things you may want to cover:
+## Merci de tester le projet en local
 
-* Ruby version
+Afin de tester notre code : téléchargez le projet.
+Ensuite, suivez la liste d'instructions : 
+```
+bundle install
+```
 
-* System dependencies
+```
+rails db:create
+rails db:migrate
+rails server
+```
 
-* Configuration
 
-* Database creation
 
-* Database initialization
+### Tester le projet sur Heroku 
 
-* How to run the test suite
+* [Lien du projet](https://eshop-cat-dev.herokuapp.com/) - The E-shop cat project
 
-* Services (job queues, cache servers, search engines, etc.)
+PS : merci de tester en local, nous avons eu un problème de dernière minute sur Heroku
 
-* Deployment instructions
 
-* ...
+### L'équipe
+
+Merci aux membres de l'équipe :
+* Tanguy
+* Augustin
+* Julien
+* Baptiste
+* Sacha
